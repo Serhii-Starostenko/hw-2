@@ -1,15 +1,14 @@
 :root{
     --primary-text-color:rgba(117, 117, 117, 1);
     --title-text-color:rgba(33, 33, 33, 1);
-    --accent-text-color:rgba(33, 150, 243, 1);   
+    --accent-text-color:rgba(33, 150, 243, 1);  
+    --background-color:#fff 
 }
 
 .header-color{
-   background-color: #FFFFFF;
-  display: inline;
-
-
-
+  background-color: var(--background-color);
+ 
+ 
 }
 .logo {
     color: var(--accent-text-color);
@@ -18,6 +17,7 @@ font-style: normal;
 font-weight: 700;
 font-size: 26px;
 line-height: 31px;
+text-align:
 }
 .logo-color{
     color: var(--title-text-color);
@@ -26,26 +26,96 @@ line-height: 31px;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
-   display: inline;
-margin-top: 24px;
-margin-left: 215px;
 }
- 
- .nav-menu li {
+.nav-menu li {
+    list-style: none;
     display: inline;
-    margin-top:33px;
-   
- }
- .nav-menu{
+    word-spacing: normal;
     
-    margin-left:  471px;
+}
+ .nav-link{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+    cursor: pointer;
+    
+    
  }
- .contacts li{
-display: inline;
-
-
+ .nav-link:focus{
+color: var(--accent-text-color);
+ }
+ .nav-link:hover {
+     color: var(--accent-text-color)
+ }
+ .link-ative{
+     color:var(--accent-text-color);
  }
 .contacts{
-    margin-left: 1078px;
-    margin-top: 32px;
+    list-style: none;
+    
+   
+}
+.contacts:hover{
+    color: var(--accent-text-color);
+}
+.contacts:focus {
+    color: var(--accent-text-color);
+}
+.contact{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+text-decoration: none;
+color: var(--primary-text-color);
+
+}
+.contact:hover{
+    color: var(--accent-text-color);
+}
+.contact:focus{
+    color: var(--accent-text-color);
+}
+body{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+background-color: #FFFFFF;
+}
+.hero{
+    background-color:rgba(47, 48, 58, 1) ;
+
+}
+.hero-title{
+
+color: var(--background-color);
+}
+.hero-button{
+background-color: var(--accent-text-color);
+height: 30px;
+width: 136px;
+border-radius: 4px;
+border:none;
+cursor: pointer;
+color: var(--background-color)
+}
+.hero-button:hover{
+color: var(--title-text-color);
+}
+.hero-button:focus {
+    color: var(--title-text-color);
+}
+.benefits{
+   opacity: 0;
+}
+.benefits-list{
+    
 }
