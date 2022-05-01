@@ -9,8 +9,7 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
-    /* identical to box height */
+    line-height: 1.5;
     background-color:var(--background-color)
 }
 
@@ -25,7 +24,7 @@ font-family: 'Raleway';
 font-style: normal;
 font-weight: 700;
 font-size: 26px;
-line-height: 31px;
+line-height: 1.19;
 } 
 
 
@@ -35,7 +34,7 @@ line-height: 31px;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     text-decoration: none;
 } 
 .logo-color-footer {
@@ -44,7 +43,7 @@ line-height: 31px;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.9;
     text-decoration: none;
 }
 .nav-menu li {
@@ -58,7 +57,7 @@ line-height: 31px;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1;
     letter-spacing: 0.02em;
     color: var(--title-text-color);
     text-decoration: none;
@@ -76,7 +75,7 @@ color: var(--accent-text-color);
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1;
     letter-spacing: 0.02em;
     text-decoration: none;
     
@@ -99,7 +98,7 @@ font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.1;
 letter-spacing: 0.02em;
 text-decoration: none;
 color: var(--primary-text-color);
@@ -123,7 +122,7 @@ font-family: 'Roboto';
 font-style: normal;
 font-weight: 900;
 font-size: 44px;
-line-height: 60px;
+line-height: 1.44;
 color: var(--background-color);
 }
 .hero-button{
@@ -155,17 +154,15 @@ font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.1;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--title-text-color);
 }
 .benefits-list p {
 font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.7;
 letter-spacing: 0.03em;
 color: var(--primary-text-color);
 }
@@ -177,7 +174,7 @@ color: var(--primary-text-color);
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
@@ -197,7 +194,7 @@ color: var(--primary-text-color);
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -213,15 +210,13 @@ color: var(--primary-text-color);
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.2;
 }
  .team-list p{
      color: var(--primary-text-color);
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.2;
  }
 
  /* footer */
@@ -257,7 +252,7 @@ color: var(--primary-text-color);
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.6;
 }
 
 .portf-button-web{
@@ -272,7 +267,7 @@ font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
-line-height: 26px;
+line-height: 1.6;
 }
 .portf-button-app{
     color:var(--title-text-color);
@@ -287,7 +282,7 @@ line-height: 26px;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.6;
 }
 .portf-button-design{
     color: var(--title-text-color);
@@ -301,7 +296,7 @@ line-height: 26px;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.6;
 }
 .portf-button-market{
     color: var(--title-text-color);
@@ -315,7 +310,7 @@ line-height: 26px;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.6;
 }
 /* Проєкти */
 .progekt-title{
@@ -327,10 +322,8 @@ line-height: 26px;
 .progekt-list p {
 color: var(--primary-text-color);
 font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
 font-size: 16px;
-line-height: 30px;
+line-height:1.9;
 }
 .progekt-list h3{
 color: var(--title-text-color);
@@ -338,5 +331,5 @@ font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
 font-size: 18px;
-line-height: 36px;
+line-height: 2;
 }
