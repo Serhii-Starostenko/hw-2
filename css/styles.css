@@ -27,6 +27,7 @@ font-style: normal;
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
+letter-spacing: 0.03em;
 } 
 
 
@@ -38,6 +39,7 @@ line-height: 1.19;
     font-size: 26px;
     line-height: 1.19;
     text-decoration: none;
+    letter-spacing: 0.03em;
 } 
 .logo-color-footer {
     color:var(--background-color);
@@ -47,6 +49,7 @@ line-height: 1.19;
     font-size: 26px;
     line-height: 1.19;
     text-decoration: none;
+    letter-spacing: 0.03em;
 }
 .nav-menu li {
     list-style: none;
@@ -138,9 +141,6 @@ color:#757575
 .contact:focus {
     color: var(--accent-text-color);
 }
-
-
-
 
 
 
@@ -284,8 +284,8 @@ line-height: 1.71;
 
 .portf-button {
     color: var(--background-color);
-    height: 38px;
-    width: 73px;
+    /* height: 38px;
+    width: 73px; */
     border-radius: 4px;
     border: none;
     cursor: pointer;
@@ -295,12 +295,13 @@ line-height: 1.71;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
+    letter-spacing: 0.03em;
 }
 
 .portf-button-web{
     color:var(--title-text-color);
-    width: 128px;
-    height: 38px;
+    /* width: 128px;
+    height: 38px; */
     border-radius: 4px;
     border: none;
     cursor: pointer;
@@ -310,11 +311,12 @@ font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
+letter-spacing: 0.03em;
 }
 .portf-button-app{
     color:var(--title-text-color);
-    width: 145px;
-    height: 38px;
+    /* width: 145px;
+    height: 38px; */
     border-radius: 4px;
     border: none;
     cursor: pointer;
@@ -325,11 +327,12 @@ line-height: 1.62;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
+    letter-spacing: 0.03em;
 }
 .portf-button-design{
     color: var(--title-text-color);
-    width: 103px;
-    height: 38px;
+    /* width: 103px;
+    height: 38px; */
     border-radius: 4px;
     border: none;
     cursor: pointer;
@@ -339,11 +342,12 @@ line-height: 1.62;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
+    letter-spacing: 0.03em;
 }
 .portf-button-market{
     color: var(--title-text-color);
-    width: 130px;
-    height: 38px;
+    /* width: 130px;
+    height: 38px; */
     border-radius: 4px;
     border: none;
     cursor: pointer;
@@ -353,6 +357,7 @@ line-height: 1.62;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
+    letter-spacing: 0.03em;
 }
 /* Проєкти */
 .progekt-title{
