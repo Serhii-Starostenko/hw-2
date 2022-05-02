@@ -94,18 +94,19 @@ color: var(--accent-text-color);
 .contacts:focus {
     color: var(--accent-text-color);
 }
+
 .contact{
-
-color: var(--color-contacts-futter);
-
 font-family: 'Roboto';
 font-style: normal;
-font-weight: 400;
+font-weight: 500;
 font-size: 14px;
-line-height: 1.17;
-letter-spacing: 0.03em;
+line-height: 16px;
+letter-spacing: 0.02em;
+text-decoration: none;
 
-/* color: rgba(255, 255, 255, 0.6); */
+color:#757575
+
+
 
 }
 .contact:hover{
@@ -114,6 +115,34 @@ letter-spacing: 0.03em;
 .contact:focus{
     color: var(--accent-text-color);
 }
+
+/* .contact-footer */
+
+.contact-footer {
+
+    color: var(--color-contacts-futter);
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+   text-decoration: none;
+}
+
+.contact-footer:hover {
+    color: var(--accent-text-color);
+}
+
+.contact:focus {
+    color: var(--accent-text-color);
+}
+
+
+
+
+
 
 /* hero */
 
